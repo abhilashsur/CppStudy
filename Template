@@ -9,7 +9,7 @@ float average (T array[], int NumElements)
     {
       tsum += array[i];
     }
-    return (float)(tsum/NumElements);
+    return (float)(tsum)/NumElements;
 }
 
 void main()
